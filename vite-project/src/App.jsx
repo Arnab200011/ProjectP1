@@ -98,8 +98,9 @@ function App() {
                 </div>
               </div>
 
-              <div className="flex flex-col items-start pb-4 pt-20">
-                <Textarea placeholder="Type your message here." />
+              <div className="flex flex-col items-start pb-4 pt-4">
+                <label htmlFor="address" className="mb-4">Address</label>
+                <Textarea id="address" name="address" placeholder="Address" />
               </div>
             </div>
           </form>
